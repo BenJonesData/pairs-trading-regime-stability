@@ -15,7 +15,6 @@ def model_fit_and_plots(df, col1, col2, col_description, return_results=True):
     axes[0].set_title(f"{col_description} Over Time")
 
     axes[0].xaxis.set_major_locator(mdates.AutoDateLocator())
-    axes[0].xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))  
     axes[0].tick_params(axis='x', rotation=45)
 
     model_1_2 = sm.OLS(df[col2], sm.add_constant(df[col1]))
