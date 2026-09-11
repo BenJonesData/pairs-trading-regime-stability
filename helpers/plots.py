@@ -32,7 +32,6 @@ def model_fit_and_plots(df, col1, col2, col_description, return_results=True):
     axes[1].set_title(f"OLS Residuals: {col1} vs {col2} (Both Regression Directions)")
 
     axes[1].xaxis.set_major_locator(mdates.AutoDateLocator())
-    axes[1].xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))  
     axes[1].tick_params(axis='x', rotation=45)
     
     plt.show()
