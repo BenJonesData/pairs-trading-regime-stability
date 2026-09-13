@@ -5,7 +5,7 @@ We use Coca-Cola (KO) and Pepsi (PEP) as a case study for this, first testing fo
 
 ## Motivation
 
-This project was built as a self-directed way to develop practical skills in time-series econometrics and rigorous hypothesis testing, applied to a concrete, well-known trading strategy. 
+This project was built as a self-directed way to develop practical skills in time-series econometrics, applied to a concrete, well-known trading strategy. 
 
 The project is intentionally scoped (a single pair, a defined set of statistical checks) rather than an attempt at a novel/comprehensive trading strategy. The value here is in the rigour applied to a focused question, not the breadth of ground covered.
 
